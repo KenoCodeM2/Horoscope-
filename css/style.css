@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+body {
+  background-image: url("../img/stars.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 40%;
+  margin-top: 2.5%;
+}
+
+img {
+  width: 50%;
+  height: 500px;
+  margin-left: 25%;
+}
+
+
+form {
+  float: left;
+  margin-left: 30%;
+  color: white;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+
+  /* Styles for screens between 1025px and 1500px */
+  form {
+    margin-left: 25%;
+  }
+  
+h2{
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+
+  /* Styles for screens between 500px and 1024px */
+  form {
+    margin-left: 24%;
+  }
+
+
+  h2{
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
