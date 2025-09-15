@@ -65,7 +65,7 @@ form {
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media screen and (min-width: 100px) and (max-width: 1024px) {
 
   /* Styles for screens between 300px and 1024px */
   form {
@@ -87,6 +87,13 @@ form {
 
   input {
     width: 50%;
+  }
+
+  h1 {
+    color: white;
+    font-size: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    margin-left: 25%;
   }
 }
 
